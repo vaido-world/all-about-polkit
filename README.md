@@ -1,5 +1,5 @@
 # all-about-polkit
-Policykit is required by the XFCE4  
+Policykit is required by the GVfs, GVfs is required by XFCE4 to show trash bin icons and the like.
 
 Official Repository  
 
