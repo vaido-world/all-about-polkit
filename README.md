@@ -25,9 +25,6 @@ https://packages.ubuntu.com/source/impish/policykit-1
 **libpolkit-gobject-1-dev** won't even let you pass through GVfs compilation first steps.  
 **libpolkit-gobject-1-0** is the most important later on.  
 **policykit-1** is required as it resolves polkit.its file being missing.  
-```
-policykit-1_0.105-18+deb9u1_amd64.deb\data.tar\.\usr\share\gettext\its\polkit.its
-```
 
 
 
@@ -58,5 +55,9 @@ Compile: GVFS 1.48.1 - Build failed.
 ```
 
 Simply installation of policykit-1 package should resolve this; as it contains files with **.its** extension.  
+```
+policykit-1_0.105-18+deb9u1_amd64.deb\data.tar\.\usr\share\gettext\its\polkit.its
+```
+
 `InstallPackage --symlink "yes" "http://ftp.us.debian.org/debian/pool/main/p/policykit-1/policykit-1_0.105-31_amd64.deb"`
 
