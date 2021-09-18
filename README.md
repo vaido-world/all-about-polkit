@@ -26,7 +26,7 @@ https://packages.ubuntu.com/source/impish/policykit-1
 **libpolkit-gobject-1-0** is the most important later on.  
 **policykit-1** is required as it resolves polkit.its file being missing.  
 
-
+### ...
 
 ### GVfs errors and their resolvance in regards of Polkit Policy kit
 ```
