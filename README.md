@@ -1,9 +1,11 @@
 # all-about-polkit
 Policykit is required by the GVfs, GVfs is required by XFCE4 to show trash bin icons and the like functionality.
 
+General information
+https://en.wikipedia.org/wiki/Polkit
+
 Official Repository  
-
-
+https://gitlab.freedesktop.org/polkit/polkit/
  
 Documentation  
 https://www.freedesktop.org/software/polkit/docs/latest/polkit.8.html
