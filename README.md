@@ -29,3 +29,34 @@ https://packages.ubuntu.com/source/impish/policykit-1
 policykit-1_0.105-18+deb9u1_amd64.deb\data.tar\.\usr\share\gettext\its\polkit.its
 ```
 
+
+
+### GVfs errors and their resolvance in regards of Polkit Policy kit
+```
+  Dependencies
+                bluray: True
+                  fuse: True
+                   gcr: True
+                gcrypt: True
+                 gudev: True
+               keyring: True
+                logind: True
+                libusb: True
+
+           devel_utils: False
+       installed_tests: False
+                   man: False
+
+Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /usr/bin/ninja
+[101/255] Generating org.gtk.vfs.file...y_daemon_merge with a custom command.
+FAILED: daemon/org.gtk.vfs.file-operations.policy 
+/System/Aliens/PIP/3.8/bin/meson --internal msgfmthelper daemon/org.gtk.vfs.file-operations.policy.in daemon/org.gtk.vfs.file-operations.policy xml /Data/Compile/Sources/gvfs-master/po
+msgfmt: cannot locate ITS rules for daemon/org.gtk.vfs.file-operations.policy.in
+[110/255] Compiling C object 'daemon/...altest@exe/gvfsbackendlocaltest.c.o'.
+ninja: build stopped: subcommand failed.
+Compile: GVFS 1.48.1 - Build failed.
+```
+
+Simply installation of policykit-1 package should resolve this; as it contains files with **.its** extension.  
+`InstallPackage --symlink "yes" "http://ftp.us.debian.org/debian/pool/main/p/policykit-1/policykit-1_0.105-31_amd64.deb"`
+
