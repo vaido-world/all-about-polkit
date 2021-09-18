@@ -58,6 +58,6 @@ Simply installation of policykit-1 package should resolve this; as it contains f
 ```
 policykit-1_0.105-18+deb9u1_amd64.deb\data.tar\.\usr\share\gettext\its\polkit.its
 ```
-
+#### Installation in GoboLinux 17
 `InstallPackage --symlink "yes" "http://ftp.us.debian.org/debian/pool/main/p/policykit-1/policykit-1_0.105-31_amd64.deb"`
 
