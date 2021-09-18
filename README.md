@@ -12,7 +12,7 @@ https://www.freedesktop.org/software/polkit/docs/latest/polkit.8.html
 
 
 ## Binaries
-A Source Package  
+A Source Package, latest version as of now.
 
 #### Debian sid 
 https://packages.debian.org/sid/policykit-1
